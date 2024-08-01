@@ -24,23 +24,23 @@ buttons.forEach(btn => {
 
     
 
-    const myInsertText1 = 'Jako my hebe STANADARD możesz zbierać diamenty za każde jednorazowo wydane 25 zł z kartą my hebe w drogeriach lub po zalogowaniu na hebe.pl, w aplikacji.';
-    const myInsertText2 = 'Każdy diament jest ważny 365 dni od daty jego zdobycia.';
-    const myInsertText3 = 'Diamenty są zabierane z Twojego konta w przypadku anulacji zamówenia lub zwrotu produktów.';
-    const myInsertText4 = 'Aktualną ilość i historię diamentów możesz sprawdzić na swoim koncie my hebe po zalogowaniu w aplikacji i na hebe.pl.';
-    const myInsertText5 = 'Diamenty za zakupy naliczane są w ciągu 24 godzin od ich zrobienia. W przeciwnym razie skontaktuj się z nami.';
-    const myInsertText6 = 'Tak, za zakupy produktów Hebe Partner naliczene są diamenty za każde jednorazowo wydane 25 zł z kartą my hebe w drogeriach lub po zalogowaniu na hebe.pl, w aplikacji.';
-    const myInsertText7 = 'Po zebraniu 20 diamentów jako klient my hebe STANDARD, wymienimy je na status my hebe VIP. Status my hebe VIP jest ważny przez 12 miesięcy od momentu jego uzyskania.';
-    const myInsertText8 = 'Jako my hebe STANADARD możesz zbierać diamenty za każde jednorazowo wydane 25 zł z kartą my hebe. Zdobycie 20 diamentów spowoduje, że zebrana pula zostanie wymieniona na status my hebe VIP.';
-    const myInsertText9 = 'Po uzyskaniu statusu my hebe VIP rób zakupy i zbieraj diamenty, które możesz wymieniać na kupony. Im więcej diamentów tym więcej korzyści.';
-    const myInsertText10 = 'Informację o dostępnych i aktywnych kuponach znajdziesz po zalogowaniu na swoje konto na hebe.pl lub aplikacji w zakładce Moje Kupony.';
-    const myInsertText11 = 'Każdy kupon rabatowy posiada swój termin ważności, po jego upływie nie ma możliwości na jego realizację, a diamenty nie zostaną przywrócone do Twojej puli.';
-    const myInsertText12 = 'W przypadku zwrotu lub anulacji zdobyte diamenty za zakupy zostaną odjęte z Twojej puli.';
-    const myInsertText13 = 'W celu realizacji kuponu w drogerii należy okazać kartę my hebe. W przypadku zakupów online, aby móc wykorzystać kupon należy zalogować się na hebe.pl lub w aplikacji.';
-    const myInsertText14 = 'Jeśli na Twoim kuponie nie ma informacji, że można zrealizować go na produkty Hebe Partner to znaczy, że kupon jest wyłączony na tą ofertę. ';
-    const myInsertText15 = 'Nie można łączyć żadnych kuponów podczas jednej transakcji zarówno w na hebe.pl jak i w sklepach stacjonarnych. Obowiązuje zasada 1 transakcja = 1 kupon';
-    const myInsertText16 = 'W celu przedłużenia statusu my hebe VIP należy w przeciągu 12 miesięcy zebrać 20 diamentów. Po uzyskaniu pełnej puli Twój status my hebe VIP zostanie przedłużony na okres kolejnych 12 miesięcy.';
-    const myInsertText17 = 'Przedłużenie statusu my hebe VIP nie powoduje zabrania diamentów z Twojego konta.';
+    const myInsertText1 = 'Jako my hebe STANADARD můžete sbírat diamanty za každých 25 kč utracených najednou s kartou my hebe  v drogeriích nebo po přihlášení na hebe.cz, v aplikaci.';
+    const myInsertText2 = 'Každý diamant je platný 365 dní od dne získání.';
+    const myInsertText3 = 'V případě zrušení objednávky nebo vrácení výrobku se z vašeho účtu odečtou diamanty.';
+    const myInsertText4 = 'Svůj aktuální počet a historii diamantů si můžete zkontrolovat na svém účtu my hebe po přihlášení v aplikaci a na stránkách hebe.cz';
+    const myInsertText5 = 'Diamanty za nákupy jsou účtovány do 24 hodin od nákupu. V opačném případě nás prosím kontaktujte.';
+    const myInsertText6 = 'Ano, za nákupy produktů Hebe Partner vám budou připsány diamanty za každých 25 kč utracených najednou  s kartou my hebe v drogerii nebo po přihlášení na hebe.cz a v aplikaci.';
+    const myInsertText7 = 'Jakmile jako zákazník my hebe STANDARD nasbíráte 20 diamantů, vyměníme vám je za status my hebe VIP. Status my hebe VIP je platný 12 měsíců od okamžiku jeho nabytí.';
+    const myInsertText8 = 'Jako my hebe STANADARD můžete sbírat diamanty za každých 25 kč utracených najednou s kartou my hebe. Získáním 20 diamantů bude nasbíraný fond vyměněn za status my hebe VIP.';
+    const myInsertText9 = 'Jakmile získáte VIP status, nakupujte a sbírejte diamanty, které můžete vyměnit za poukázky. Čím více diamantů nasbíráte, tím více výhod získáte.';
+    const myInsertText10 = 'Informace o dostupných a aktivních kupónech najdete po přihlášení ke svému účtu na webu hebe.cz nebo v aplikaci v záložce Moje kupóny.';
+    const myInsertText11 = 'Každý slevový kupón má datum vypršení platnosti, jakmile platnost kupónu vyprší, nemůžete jej uplatnit a diamanty vám nebudou vráceny do fondu.';
+    const myInsertText12 = 'V případě vrácení nebo zrušení budou diamanty získané za nákupy odečteny z vašeho fondu.';
+    const myInsertText13 = 'Pro uplatnění kupónu v drogerii je třeba předložit kartu my hebe. Při nákupu online se musíte pro uplatnění poukazu přihlásit na webu hebe.cz nebo v aplikaci.';
+    const myInsertText14 = 'Pokud na kupónu není uvedeno, že jej lze uplatnit na produkty Hebe Partner, znamená to, že se na něj tato nabídka nevztahuje. ';
+    const myInsertText15 = 'Během jedné transakce nelze kombinovat žádné kupóny, a to jak na stránkách hebe.cz, tak v kamenných obchodech. Platí pravidlo 1 transakce = 1 kupón.';
+    const myInsertText16 = 'Abyste mohli prodloužit svůj status my hebe VIP, musíte během 12 měsíců nasbírat 20 diamantů. Jakmile nasbíráte celou částku, bude váš status my hebe VIP prodloužen o dalších 12 měsíců. ';
+    const myInsertText17 = 'Obnovení statusu my hebe VIP neubírá diamanty z vašeho účtu.';
 
     function toggleAnswears(button, answearPlace, answearText) {
         // const isMobile = window.innerWidth <= 600
