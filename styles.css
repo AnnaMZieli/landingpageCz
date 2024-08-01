@@ -1,0 +1,1873 @@
+/* @import url(https://use.typekit.net/aut2ygo.css); */
+
+
+/* Default styles */
+
+
+:root {
+    --pink: #eb008c;
+    --purple: #820080;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #b0b0ba;
+}
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+.landingContainer {
+    margin:0;
+    padding: 0;
+    font-family: "myriad-pro", sans-serif, arial;
+}
+
+.landingContainer h1 {
+    font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8vw;
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.landingContainer h2 {
+    font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8vw;
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+    margin-top: -0.6vw;
+    color: var(--pink);
+}
+
+/* h1 {
+    color: var(--black);
+}
+
+h2 {
+    margin-top: -0.6vw;
+    color: var(--pink);
+} */
+
+.landingContainer h3 {
+    font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-size: 1.5vw;
+    margin:0;
+    padding:0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.landingContainer h4  {
+    font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-size: 1.5vw;
+    margin:0;
+    padding:0;
+    font-weight: 500;
+}
+
+/* h3 {
+    margin-top: 1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: 500;
+} */
+
+.landingContainer h5 {
+    font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-size: 1.5vw;
+    margin:1vw;
+    padding:0;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.landingContainer h6 {
+    font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-size: 1.5vw;
+    margin:1vw;
+    padding:0;
+    font-weight: 700;
+}
+
+/* h5 {
+    font-weight: 500;
+    color: var(--gray);
+}
+
+h6 {
+    font-weight: 700;
+} */
+
+.landingContainer p {
+    color: var(--gray);
+    display: flex;
+    justify-content:center;
+}
+
+.landingContainer button {
+    /* font-family: "myriad-pro", sans-serif, arial;
+    font-style: normal;
+    font-weight: 700; */
+    border: none;  
+    cursor: pointer;
+    /* font-size: 1.6vw; */
+}
+
+
+.landingContainer .mainBox {
+    background-image: url('./images/baner_MY_HEBE2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;  
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    height: 42vw;
+}
+
+.benefitsStandard {
+    background-image: url('./images/image_benefits.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;  
+    /* cursor: pointer; */
+    height: 40vw;
+    margin: 2vw 6vw;
+}
+
+.benefitsStandard h1 {
+    padding-top: 6vw;
+}
+
+.benefitsStandard .standardPoints {
+    list-style: none;
+}
+
+.benefitsStandard .standardPoints li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.landingContainer ul {
+    margin-left: 0;
+    padding-left: 3vw;
+}
+
+.landingContainer ul li {
+    margin-bottom: 2vw;
+    margin-left: 0vw;
+    position: relative;
+  }
+
+.landingContainer ul .firstPoint::before {
+    background-image: url('./images/li1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    float: left;
+    content: "";
+    height: 3vw; 
+    left: -3.2vw;
+    position:absolute;
+    top: 1.2vw;      
+    width: 2.85vw;  
+}
+
+.landingContainer ul .firstPoint {
+    padding-left: 2vw;
+}
+
+.landingContainer ul .secondPoint::before {
+    background-image: url('./images/li2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    content: "";
+    height: 3vw; 
+    left: -3.2vw;
+    position: absolute;
+    top: 1.2vw;      
+    width: 3vw;  
+}
+
+.landingContainer ul .secondPoint {
+    padding-left: 2vw;
+}
+
+.landingContainer ul .thirdPoint::before {
+    background-image: url('./images/li3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    content: "";
+    height: 3vw; 
+    left: -3.2vw;
+    position: absolute;
+    top: 1.2vw;      
+    width: 3vw;  
+}
+
+.landingContainer ul .thirdPoint {
+    padding-left: 2vw;
+}
+
+
+.statusMyHebe {
+    background-image: url('./images/vipStandard.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 34vw;
+    margin: 4vw 6vw 0vw 6vw;
+}
+
+.benefitsVip {
+    background-image: url('./images/image_vip_benefit.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 42vw;
+    margin: 0vw 6vw 4vw 6vw;
+}
+
+.benefitsVip h1 {
+    padding-top: 6vw;
+}
+
+.benefitsVip .vipPoints {
+    list-style: none;
+}
+
+.benefitsVip .vipPoints li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.landingContainer ul .fourthPoint::before {
+    background-image: url('./images/li1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    content: "";
+    height: 3vw; 
+    left: -3.2vw;
+    position: absolute;
+    top: 1.2vw;      
+    width: 2.85vw;  
+}
+
+.landingContainer ul .fourthPoint {
+    padding-left: 2vw;
+}
+
+.landingContainer ul .fifthPoint::before {
+    background-image: url('./images/li5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    content: "";
+    height: 3vw; 
+    left: -3.2vw;
+    position: absolute;
+    top: 1.2vw;      
+    width: 3vw;  
+}
+
+.landingContainer ul .fifthPoint {
+    padding-left: 2vw;
+}
+
+
+.landingContainer ul .sixthPoint::before {
+    background-image: url('./images/li6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    content: "";
+    height: 3vw; 
+    left: -3.2vw;
+    position: absolute;
+    top: 1.2vw;      
+    width: 3vw;  
+}
+
+.landingContainer ul .sixthPoint {
+    padding-left: 2vw;
+}
+
+.benefitsVip #vipstatus {
+    margin-top: 3vw;
+}
+
+.instruction h2 {
+    padding: 2vw 6vw;
+}
+
+.instruction {
+    background-color: #f1f2f2;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    height: 50vw;
+    margin: -2vw 0vw;
+    white-space: nowrap;
+}
+
+.instruction .threeSteps {
+    margin: 2vw 6vw 2vw 6vw;
+    justify-content: center;
+    display: flex;
+}
+
+
+.instruction .threeSteps .phoneImage {
+    display: inline-block;
+}
+
+.instruction .threeSteps #firstStep {
+    width: 27.5vw;
+    margin-right: 2vw;
+    content: url("./images/grafika_4mobile.png");
+}
+
+.instruction .threeSteps #secondStep {
+    width: 27.5vw;
+    margin-right: 2vw;
+    content: url("./images/grafika_5mobile.png");
+}
+
+.instruction .threeSteps #thirdStep {
+    width: 27.5vw;
+    content: url("./images/grafika_6mobile.png");
+}
+
+.download {
+    background-image: url('./images/Grafika_6.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 38vw;
+    margin: 2vw 6vw 0vw 6vw;
+}
+
+.downloadButtons {
+    visibility: hidden;
+}
+
+.youBuy {
+    background-image: url('./images/Grafika_7.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 37vw;
+    margin: 2vw 6vw 0vw 6vw;
+}
+
+/* .qa button {
+    height: 2vw;
+} */
+
+.qa {
+    margin: 4vw 6vw;
+}
+
+.qa .pinkQ {
+    color: var(--pink);
+}
+
+.qa h4 {
+    margin: 1vw 20vw 0vw 0vw;
+}
+
+.qa .qaSector1 {
+     display: flex;
+    justify-content: center;
+}
+
+.qa .qaOne {
+    display: grid;
+    width: 70vw;
+    grid-template-columns: 6vw 60vw 4vw;
+    margin-top: 6vw;
+    border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaOne #btn1 {
+    background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+    background-repeat: no-repeat;
+    padding: 1em;
+    /* background-size: 100%; */
+    border-radius: 0;
+    margin-top: 1.4vw;
+    background-color: transparent;
+    float:right;
+}
+
+.qa .qaOne h5, h6 {
+    float:left;
+}
+
+#answear1{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector2 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaTwo {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaTwo #btn2 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaTwo h5, h6 {
+   float:left;
+}
+
+#answear2{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector3 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaThree {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaThree #btn3 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaThree h5, h6 {
+   float:left;
+}
+
+#answear3{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector4 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaFour {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaFour #btn4 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaFour h5, h6 {
+   float:left;
+}
+
+#answear4{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector5 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaFive {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaFive #btn5 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaFive h5, h6 {
+   float:left;
+}
+
+#answear5{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector6 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaSix {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaSix #btn6 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaSix h5, h6 {
+   float:left;
+}
+
+#answear6{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector7 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaSeven {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaSeven #btn7 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaSeven h5, h6 {
+   float:left;
+}
+
+#answear7{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector8 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaEight {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaEight #btn8 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaEight h5, h6 {
+   float:left;
+}
+
+#answear8{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector9 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaNine {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaNine #btn9 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaNine h5, h6 {
+   float:left;
+}
+
+#answear9{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector10 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaTen {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaTen #btn10 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaTen h5, h6 {
+   float:left;
+}
+
+#answear10{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector11 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaEleven {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaEleven #btn11 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaEleven h5, h6 {
+   float:left;
+}
+
+#answear11{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector12 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaTwelve {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaTwelve #btn12 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaTwelve h5, h6 {
+   float:left;
+}
+
+#answear12{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector13 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaThirteen {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaThirteen #btn13 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaThirteen h5, h6 {
+   float:left;
+}
+
+#answear13{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector14 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaFourteen {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaFourteen #btn14 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaFourteen h5, h6 {
+   float:left;
+}
+ 
+#answear14{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector15 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaFiveteen {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaFiveteen #btn15 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaFiveteen h5, h6 {
+   float:left;
+}
+
+#answear15{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector16 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaSixteen {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaSixteen #btn16 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaSixteen h5, h6 {
+   float:left;
+}
+
+#answear16{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.qa .qaSector17 {
+    display: flex;
+    justify-content: center;
+}
+
+.qa .qaSeventeen {
+   display: grid;
+   width: 70vw;
+   grid-template-columns: 6vw 60vw 4vw;
+   margin-top: 2vw;
+   border-bottom: 0.1vw solid var(--gray);
+}
+
+.qa .qaSeventeen #btn17 {
+   background-image: url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_down.png');
+   background-repeat: no-repeat;
+   padding: 1em;
+   /* background-size: 100%; */
+   border-radius: 0;
+   margin-top: 1.4vw;
+   background-color: transparent;
+   float:right;
+}
+
+.qa .qaSeventeen h5, h6 {
+   float:left;
+}
+
+#answear17{
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+/* Mobile styles */
+
+@media all and (max-width: 600px) {
+
+    .landingContainer h1 {
+        font-weight: 700;
+        font-size: 6.6vw;
+        margin-left: 8.8vw;
+        margin-top: 1vw;
+    }
+
+    .landingContainer h2 {
+        font-weight: 700;
+        font-size: 6.6vw;
+        margin-left: 8.8vw;
+    }
+
+    .landingContainer .mainBox {
+        background-image: url('./images/mobile_grafika_1.png');
+        height: 110vw;
+    }
+
+    .landingContainer .benefitsStandard {
+        background-image: url('./images/second_mobile_benefits.png');
+        height: 160vw;
+        margin: 0vw 0vw;
+        background-size: 100%;
+    }
+
+    .landingContainer h3 {
+        font-size: 3.7vw;
+        margin:0;
+        padding:0;
+        margin-right: 4vw;
+    }
+
+    .landingContainer h4 {
+        font-size: 3.7vw;
+        margin:0;
+        padding:0;
+        margin-right: 4vw;
+    }
+
+    .landingContainer h5 {
+        font-size: 3.7vw;
+    }
+
+    .landingContainer h6 {
+        font-size: 3.7vw;
+    }
+
+    .landingContainer ul {
+        margin-left: 4vw;
+        padding-left: 8vw;
+    }
+
+    .landingContainer ul li {
+        margin-top: 4vw;
+        margin-bottom: 6vw;
+    }
+
+    .landingContainer ul .firstPoint::before {
+        height: 8vw;   
+        width: 7.6vw;  
+    }
+    
+    .landingContainer ul .firstPoint {
+        padding-left: 8vw;
+    }
+
+    .landingContainer ul .secondPoint::before {
+        height: 8vw;      
+        width: 8vw;  
+    }
+    
+    .landingContainer ul .secondPoint {
+        padding-left: 8vw;
+    }
+
+    .landingContainer ul .thirdPoint::before {
+        height: 8vw; 
+        width: 8vw;  
+    }
+    
+    .landingContainer ul .thirdPoint {
+        padding-left: 8vw;
+    }
+
+    .landingContainer .statusMyHebe {
+        background-image: url('./images/20_diamentow2.png');
+        height: 56vw;
+        margin: 8vw 0vw 0vw 0vw;
+        background-size: 100%;
+    }
+
+    .landingContainer .benefitsVip {
+        background-image: url('./images/vipBenefits_mobile.png');
+        height: 180vw;
+        margin: 0vw 0vw;
+        background-size: 100%;
+    }
+
+    .landingContainer .benefitsVip h1 {
+        margin-top: 0vw;
+    }
+
+    .landingContainer ul .fourthPoint::before {
+        height: 8vw;   
+        width: 7.6vw;  
+    }
+    
+    .landingContainer ul .fourthPoint {
+        padding-left: 8vw;
+    }
+
+    .landingContainer ul .fifthPoint::before {
+        height: 8vw;   
+        width: 8vw;  
+    }
+    
+    .landingContainer ul .fifthPoint {
+        padding-left: 8vw;
+    }
+
+    .landingContainer ul .sixthPoint::before {
+        height: 8vw;   
+        width: 8vw;  
+    }
+    
+    .landingContainer ul .sixthPoint {
+        padding-left: 8vw;
+    }
+
+    .landingContainer .benefitsVip #vipstatus {
+        margin-left: 8.8vw;
+    }
+
+    .instruction {
+        background-color: #f1f2f2;
+        height: 120vw;
+        margin: -2vw 0vw;
+        overflow: hidden;
+    }
+
+    .instruction h2 {
+        margin: 2vw 1vw;
+    }
+
+
+    .instruction .threeSteps {
+        justify-content:flex-start;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 2vw 0;
+        margin: 1vw 4vw;
+        display: flex;
+        align-items: baseline;
+        /* -ms-overflow-style: none;
+        scrollbar-width: none; */
+    }
+
+    
+
+    .instruction .threeSteps .phoneImage {
+        margin: 0 3vw;
+        display: inline-block;
+        vertical-align: top;
+        width: 100vw;
+    }
+
+    .instruction .threeSteps #firstStep {
+        width: 70vw;
+        content: url("./images/grafika_4mobile.png");
+    }
+    
+    .instruction .threeSteps #secondStep {
+        width: 70vw;
+        content: url("./images/grafika_5mobile.png");
+    }
+    
+    .instruction .threeSteps #thirdStep {
+        width: 70vw;
+        content: url("./images/grafika_6mobile.png");
+    }
+
+
+    .download {
+        background-image: url('./images/mobile_grafika_9space.png');
+        height: 130vw;
+        margin: 0vw;
+        margin-top: 5vw;
+    }
+
+    .downloadButtons {
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+    }
+
+    .landingContainer .myDownloadBtns {
+        margin-top: 100vw;
+    }
+
+    .downloadButtons #dwn1btn {
+        background-image: url('./images/APP_STORE.png');
+        border-radius: 0px;
+        height: 16vw;
+        width: 36vw;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 0vw 4vw 4vw 0;
+        background-color: transparent;
+    }
+
+    .downloadButtons #dwn2btn {
+        background-image: url('./images/GOOGLE_PLAY.png');
+        border-radius: 0px;
+        height: 16vw;
+        width: 36vw;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 0vw 4vw 4vw 0;
+        background-color: transparent;
+    }
+
+    .youBuy {
+        background-image: url('./images/mobile_grafika_7.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 91vw;
+        margin: 0vw;
+    }
+
+    .qa {
+        margin: 1vw 1vw;
+    }
+
+    .qa button {
+        height: 8vw;
+    }
+
+    .qa h1 {
+        font-size: 6.6vw;
+        margin-left: 8.8vw;
+        margin-right: 14vw;
+    }
+    
+    .qa h4 {
+        margin: 1vw 10vw 0vw 8.8vw;
+    }
+    
+    .qa .qaOne {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaOne h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaOne .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaOne #btn1 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+    
+    #answear1 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaTwo {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaTwo h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaTwo .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaTwo #btn2 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+    
+    #answear2 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaThree {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaThree h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaThree .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaThree #btn3 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear3 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaFour {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaFour h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaFour .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaFour #btn4 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear4 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaFive {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaFive h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaFive .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaFive #btn5 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear5 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaSix {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaSix h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaSix .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaSix #btn6 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear6 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaSeven {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaSeven h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaSeven .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaSeven #btn7 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear7 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaEight {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaEight h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaEight .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaEight #btn8 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear8 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+    
+    .qa .qaNine {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaNine h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaNine .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaNine #btn9 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear9 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaTen {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaTen h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaTen .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaTen #btn10 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear10 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaEleven {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaEleven h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaEleven .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaEleven #btn11 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear11 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaTwelve {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaTwelve h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaTwelve .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaTwelve #btn12 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear12 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaThirteen {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaThirteen h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaThirteen .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaThirteen #btn13 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear13 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaFourteen {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaFourteen h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaFourteen .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaFourteen #btn14 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear14 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaFiveteen {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaFiveteen h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaFiveteen .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaFiveteen #btn15 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear15 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaSixteen {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaSixteen h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaSixteen .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaSixteen #btn16 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear16 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .qa .qaSeventeen {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 8vw 56vw 16vw;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        border-bottom: 0.1vw solid var(--gray);
+    }
+
+    .qa .qaSeventeen h5, h6 {
+        font-size: 3.8vw;
+        float:left;
+    }
+
+    .qa .qaSeventeen .number {
+        margin-top: 1.6vw;
+        font-size: 2.6vw;
+    }
+    
+    .qa .qaSeventeen #btn17 {
+        background-image: url('./images/button_down.png');
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        height: 4vw;
+        margin:2vw;
+        background-color: transparent;
+        float:right;
+    }
+
+    #answear17 {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+}
+
+@media all and (max-width: 300px) {
+    .qa button {
+        height:14vw;
+        background-size: 0.6vw;
+    }
+
+    .qa .qaOne {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaTwo {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaThree {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFour {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFive {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSix {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSeven {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaEight {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaNine {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaTen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaEleven {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaTwelve {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaThirteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFourteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaFiveteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSixteen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+
+    .qa .qaSeventeen {
+        width: 70vw;
+        grid-template-columns: 6vw 50vw 14vw;
+    }
+}
