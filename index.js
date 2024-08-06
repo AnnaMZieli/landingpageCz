@@ -84,7 +84,7 @@ function btn4Click(){
 
 function btn5Click(){
     const answear5Place = document.getElementById("answear5");
-    const answear5Text = myInsertText6;
+    const answear5Text = myInsertText5;
 
     toggleAnswears(btn5, answear5Place, answear5Text);
 }
@@ -140,7 +140,7 @@ function btn12Click(){
 
 function btn13Click(){
     const answear13Place = document.getElementById("answear13");
-    const answear13Text = myInsertText12;
+    const answear13Text = myInsertText13;
 
     toggleAnswears(btn13, answear13Place, answear13Text);
 }
