@@ -993,7 +993,7 @@ h6 {
 
 /* Mobile styles */
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 720px) {
 
     .landingContainer h1 {
         font-weight: 700;
