@@ -52,6 +52,37 @@ buttons.forEach(btn => {
             button.style.backgroundImage = "url('https://www.hebe.pl/on/demandware.static/-/Library-Sites-HebeSharedLibrary/pl_PL/v1720742560624/landing-myhebe2/images/button_up.png')"
         }
     }
+
+    const btnSH = document.getElementById("showHide")
+
+    const qaSectors = [
+        document.querySelector(".qaSector17"),
+        document.querySelector(".qaSector16"),
+        document.querySelector(".qaSector15"),
+        document.querySelector(".qaSector14"),
+        document.querySelector(".qaSector13"),
+        document.querySelector(".qaSector12"),
+        document.querySelector(".qaSector11"),
+        document.querySelector(".qaSector10"),
+        document.querySelector(".qaSector9"),
+        document.querySelector(".qaSector8"),
+        document.querySelector(".qaSector7"),
+        document.querySelector(".qaSector6"),
+        document.querySelector(".qaSector5")
+    ];
+
+    qaSectors.forEach(qa => qa.style.display = "none")
+
+
+    function buttonSHClick() {
+        if (btnSH.innerHTML === "Zobrazit více") {
+            qaSectors.forEach(qa => qa.style.display = "flex");
+            btnSH.innerHTML = "Ukažte méně";
+        } else {
+            qaSectors.forEach(qa => qa.style.display = "none");
+            btnSH.innerHTML = "Zobrazit více";
+        }
+    }
     
 
 function btn1Click(){

@@ -9,7 +9,7 @@
     --purple: #820080;
     --white: #ffffff;
     --black: #000000;
-    --gray: #b0b0ba;
+    --gray: #3f3f46;
 }
 
 body {
@@ -46,14 +46,6 @@ body {
     color: var(--pink);
 }
 
-/* h1 {
-    color: var(--black);
-}
-
-h2 {
-    margin-top: -0.6vw;
-    color: var(--pink);
-} */
 
 .landingContainer h3 {
     font-family: "myriad-pro", sans-serif, arial;
@@ -74,16 +66,6 @@ h2 {
     font-weight: 500;
 }
 
-/* h3 {
-    margin-top: 1vw;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-h4 {
-    font-weight: 500;
-} */
-
 .landingContainer h5 {
     font-family: "myriad-pro", sans-serif, arial;
     font-style: normal;
@@ -103,15 +85,6 @@ h4 {
     font-weight: 700;
 }
 
-/* h5 {
-    font-weight: 500;
-    color: var(--gray);
-}
-
-h6 {
-    font-weight: 700;
-} */
-
 .landingContainer p {
     color: var(--gray);
     display: flex;
@@ -119,12 +92,8 @@ h6 {
 }
 
 .landingContainer button {
-    /* font-family: "myriad-pro", sans-serif, arial;
-    font-style: normal;
-    font-weight: 700; */
     border: none;  
     cursor: pointer;
-    /* font-size: 1.6vw; */
 }
 
 
@@ -399,7 +368,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 38vw;
-    margin: 0vw 6vw 0vw 6vw;
+    margin: 2vw 6vw 0vw 6vw;
 }
 
 .downloadButtons {
@@ -413,10 +382,6 @@ h6 {
     height: 37vw;
     margin: 2vw 6vw 0vw 6vw;
 }
-
-/* .qa button {
-    height: 2vw;
-} */
 
 .qa {
     margin: 4vw 6vw;
@@ -437,8 +402,8 @@ h6 {
 
 .qa .qaOne {
     display: grid;
-    width: 70vw;
-    grid-template-columns: 6vw 60vw 4vw;
+    width: 86vw;
+    grid-template-columns: 8vw 70vw 8vw;
     margin-top: 6vw;
     border-bottom: 0.1vw solid var(--gray);
 }
@@ -460,7 +425,7 @@ h6 {
 
 #answear1{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector2 {
@@ -470,9 +435,9 @@ h6 {
 
 .qa .qaTwo {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -493,7 +458,7 @@ h6 {
 
 #answear2{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector3 {
@@ -503,9 +468,9 @@ h6 {
 
 .qa .qaThree {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -526,7 +491,7 @@ h6 {
 
 #answear3{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector4 {
@@ -536,9 +501,9 @@ h6 {
 
 .qa .qaFour {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -559,7 +524,7 @@ h6 {
 
 #answear4{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector5 {
@@ -569,9 +534,9 @@ h6 {
 
 .qa .qaFive {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -592,7 +557,7 @@ h6 {
 
 #answear5{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector6 {
@@ -602,9 +567,9 @@ h6 {
 
 .qa .qaSix {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -625,7 +590,7 @@ h6 {
 
 #answear6{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector7 {
@@ -635,9 +600,9 @@ h6 {
 
 .qa .qaSeven {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -658,7 +623,7 @@ h6 {
 
 #answear7{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector8 {
@@ -668,9 +633,9 @@ h6 {
 
 .qa .qaEight {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -691,7 +656,7 @@ h6 {
 
 #answear8{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector9 {
@@ -701,9 +666,9 @@ h6 {
 
 .qa .qaNine {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -724,7 +689,7 @@ h6 {
 
 #answear9{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector10 {
@@ -734,9 +699,9 @@ h6 {
 
 .qa .qaTen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -757,7 +722,7 @@ h6 {
 
 #answear10{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector11 {
@@ -767,9 +732,9 @@ h6 {
 
 .qa .qaEleven {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -790,7 +755,7 @@ h6 {
 
 #answear11{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector12 {
@@ -800,9 +765,9 @@ h6 {
 
 .qa .qaTwelve {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -823,7 +788,7 @@ h6 {
 
 #answear12{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector13 {
@@ -833,9 +798,9 @@ h6 {
 
 .qa .qaThirteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -856,7 +821,7 @@ h6 {
 
 #answear13{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector14 {
@@ -866,9 +831,9 @@ h6 {
 
 .qa .qaFourteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -889,7 +854,7 @@ h6 {
  
 #answear14{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector15 {
@@ -899,9 +864,9 @@ h6 {
 
 .qa .qaFiveteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -922,7 +887,7 @@ h6 {
 
 #answear15{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector16 {
@@ -932,9 +897,9 @@ h6 {
 
 .qa .qaSixteen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -955,7 +920,7 @@ h6 {
 
 #answear16{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .qa .qaSector17 {
@@ -965,9 +930,9 @@ h6 {
 
 .qa .qaSeventeen {
    display: grid;
-   width: 70vw;
-   grid-template-columns: 6vw 60vw 4vw;
-   margin-top: 2vw;
+   width: 86vw;
+   grid-template-columns: 8vw 70vw 8vw;
+   margin-top: 1vw;
    border-bottom: 0.1vw solid var(--gray);
 }
 
@@ -988,7 +953,24 @@ h6 {
 
 #answear17{
     margin-top: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
+}
+
+.landingContainer .showHideBtnSection #showHide {
+    padding: 1.5vw;
+    border-radius: 100px;
+    font-family: "myriad-pro", sans-serif, arial;
+    background-color: var(--black);
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.landingContainer .showHideBtnSection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
 }
 
 /* Mobile styles */
