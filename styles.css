@@ -1834,6 +1834,16 @@ body {
         margin-bottom: 4vw;
     }
 
+    .landingContainer .showHideBtnSection #showHide {
+        padding: 3vw;
+        font-size: 4vw;
+    }
+
+    .landingContainer .showHideBtnSection {
+        margin-top:4vw;
+        margin-bottom: 10vw;
+    }
+
 }
 
 @media all and (max-width: 300px) {
